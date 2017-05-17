@@ -12,6 +12,7 @@ public:
   void getPassword(std::string);
   
   Password();
+  Password(std::string);
   ~Password();
 };
 }

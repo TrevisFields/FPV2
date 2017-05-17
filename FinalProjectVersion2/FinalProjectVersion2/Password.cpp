@@ -22,7 +22,7 @@ char getRandomChar()
 }
 
 Password::Password()
-{
+  {
 while(true)
 {
   int passLength = 6;
@@ -42,4 +42,4 @@ while(true)
 	 }
 }
 }
-}
+		}

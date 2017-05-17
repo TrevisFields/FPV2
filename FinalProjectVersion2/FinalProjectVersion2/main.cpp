@@ -8,6 +8,9 @@
 #include "FinalProjectDisclaimerMessage.h"
 #include "Password.h"
 #include "LoginMenu.h"
+#include "UserNameMenu.h"
+#include "UserName.h"
+
 using namespace std;
 
 int main()
