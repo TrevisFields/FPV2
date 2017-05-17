@@ -12,6 +12,7 @@
 		6E0C13B31EC9878F00F332CE /* Password.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C13B11EC9878F00F332CE /* Password.cpp */; };
 		6E0C13E51ECAC78400F332CE /* LoginMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C13E31ECAC78400F332CE /* LoginMenu.cpp */; };
 		6E0C13EA1ECAD3B200F332CE /* UserName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C13E81ECAD3B200F332CE /* UserName.cpp */; };
+		6E0C13EE1ECC20BE00F332CE /* UserNameMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C13EC1ECC20BE00F332CE /* UserNameMenu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		6E0C13E61ECAC7F500F332CE /* LoginMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMenu.h; sourceTree = "<group>"; };
 		6E0C13E71ECAD3A600F332CE /* UserName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserName.h; sourceTree = "<group>"; };
 		6E0C13E81ECAD3B200F332CE /* UserName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserName.cpp; sourceTree = "<group>"; };
+		6E0C13EB1ECC20B200F332CE /* UserNameMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserNameMenu.h; sourceTree = "<group>"; };
+		6E0C13EC1ECC20BE00F332CE /* UserNameMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserNameMenu.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				6E0C13E61ECAC7F500F332CE /* LoginMenu.h */,
 				6E0C13E71ECAD3A600F332CE /* UserName.h */,
 				6E0C13E81ECAD3B200F332CE /* UserName.cpp */,
+				6E0C13EB1ECC20B200F332CE /* UserNameMenu.h */,
+				6E0C13EC1ECC20BE00F332CE /* UserNameMenu.cpp */,
 			);
 			path = FinalProjectVersion2;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				6E0C13A71EC6EF0100F332CE /* main.cpp in Sources */,
 				6E0C13B01EC6F00C00F332CE /* FinalProjectDisclaimerMessage.cpp in Sources */,
 				6E0C13B31EC9878F00F332CE /* Password.cpp in Sources */,
+				6E0C13EE1ECC20BE00F332CE /* UserNameMenu.cpp in Sources */,
 				6E0C13EA1ECAD3B200F332CE /* UserName.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

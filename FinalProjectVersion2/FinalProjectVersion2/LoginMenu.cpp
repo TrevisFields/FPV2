@@ -1,4 +1,5 @@
 #include "LoginMenu.h"
+#include "UserNameMenu.h"
 #include <string>
 #include <iostream>
 #include <cstdlib>
@@ -29,13 +30,15 @@ do {
 		
 		/* --> Why will this not work in the way that i would like it to */
 		PasswordCreator::Password();
-		/* --> CODE THAT MAY NEED TO BE DELETED OR MODIFED */
+		/* --> CODE THAT MAY NEED TO BE DELETED OR MODIFED <-- */
 		
 		break;
 		case 2:
 		  // --> call user name login and password login screen
 		  // --> check to see if both are valid entries
 		  // --> continue to next menu
+		auto newUser = UserNameMenuChoice::UserNameMenu();
+		  // --> DELETE CODE FOR BETTER WORKING CODE <-- //
 		break;
 		case 3:
 		  // --> show current user
